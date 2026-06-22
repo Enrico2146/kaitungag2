@@ -156,12 +156,11 @@ getgenv().Config = {
   --////////////////////////////////////////////////////
   -- SMART DAILY DEAL SYSTEM
   --////////////////////////////////////////////////////
-
   ["Smart Daily Deal"] = {
     ["Enabled"] = true, -- enables automatic Daily Deal handling
     ["Fruit Amount"] = 10, -- minimum amount of a fruit to keep before donating extras
     ["Fruits"] = { -- fruits allowed to be used for Daily Deals
-      "Bamboo"
+      "Bamboo", -- << SAKTI: Udah gua tambahin koma biar ga eror!
       "Mushroom"
     }
   },
@@ -169,32 +168,20 @@ getgenv().Config = {
   --////////////////////////////////////////////////////
   -- MAIL SYSTEM (ITEM TRANSFER)
   --////////////////////////////////////////////////////
-
-  -- Example:
-  --[[
-  ["your username"] = {
-    Note = "gift",
-    Items = {
-      "Golden Dragonfly",
-      "Unicorn",
-      "Raccoon",
-    },
-  },
-
   ["Auto Send Mail"] = true, -- Automatically sends configured items
 
- ["Mail To Send"] = {
-      ["encori21"] = {
-        Note = "gift",
-        Items = {
-          "Golden Dragonfly",
-          "Unicorn",
-          "Raccoon",
-          "Rainbow",
-          "Gold",
-        },
+  ["Mail To Send"] = {
+    ["encori21"] = {
+      Note = "gift",
+      Items = {
+        "Golden Dragonfly",
+        "Unicorn",
+        "Raccoon",
+        "Rainbow",
+        "Gold",
       },
     },
+  },
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/refs/heads/main/Kaitun/Grow%20A%20Garden%202", true))()
