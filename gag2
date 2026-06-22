@@ -11,7 +11,7 @@ getgenv().Config = {
     ["Auto Use Gear"] = false, -- automatically equips/uses bought gear
   },
 
-  ["Auto Expand Garden"] = true, -- expands plot when conditions are met
+  ["Auto Expand Garden"] = false, -- expands plot when conditions are met
 
   --////////////////////////////////////////////////////
   -- PERFORMANCE / FPS CONTROL
