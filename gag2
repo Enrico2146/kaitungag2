@@ -114,8 +114,8 @@ getgenv().Config = {
     ["Apple"] = 0,
     ["Corn"] = 0,
 
-    ["Bamboo"] = 999,
-    ["Mushroom"] = 999,
+    ["Bamboo"] = 30,
+    ["Mushroom"] = 30,
     ["Cactus"] = 0,
     ["Pineapple"] = 0,
     ["Green Bean"] = 0,
