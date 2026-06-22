@@ -180,7 +180,6 @@ getgenv().Config = {
       "Raccoon",
     },
   },
-  ]]
 
   ["Auto Send Mail"] = true, -- Automatically sends configured items
 
